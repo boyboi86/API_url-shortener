@@ -19,3 +19,5 @@ var Url = new Schema({
         default: shortid.generate()
     }
 })
+
+module.exports = mongoose.model('Url', Url);
